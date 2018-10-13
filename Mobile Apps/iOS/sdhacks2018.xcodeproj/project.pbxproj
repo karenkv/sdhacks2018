@@ -15,6 +15,9 @@
 		B37C6ED22172646900F9E07B /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37C6ED12172646900F9E07B /* UIButtonExtension.swift */; };
 		B37C6ED42172728C00F9E07B /* SetUpEnvViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37C6ED32172728C00F9E07B /* SetUpEnvViewController.swift */; };
 		B37C6ED6217288D800F9E07B /* DesignYourProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37C6ED5217288D800F9E07B /* DesignYourProjectViewController.swift */; };
+		B37C6ED821728C8F00F9E07B /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37C6ED721728C8F00F9E07B /* SignUp.storyboard */; };
+		B37C6EDA21729D0B00F9E07B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37C6ED921729D0A00F9E07B /* SignUpViewController.swift */; };
+		B37C6EDC21729DCC00F9E07B /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37C6EDB21729DCC00F9E07B /* UITextFieldExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		B37C6ED12172646900F9E07B /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 		B37C6ED32172728C00F9E07B /* SetUpEnvViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpEnvViewController.swift; sourceTree = "<group>"; };
 		B37C6ED5217288D800F9E07B /* DesignYourProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignYourProjectViewController.swift; sourceTree = "<group>"; };
+		B37C6ED721728C8F00F9E07B /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
+		B37C6ED921729D0A00F9E07B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		B37C6EDB21729DCC00F9E07B /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,8 @@
 				B37C6ED32172728C00F9E07B /* SetUpEnvViewController.swift */,
 				B37C6ED5217288D800F9E07B /* DesignYourProjectViewController.swift */,
 				B37C6EB921722C8800F9E07B /* Main.storyboard */,
+				B37C6ED721728C8F00F9E07B /* SignUp.storyboard */,
+				B37C6ED921729D0A00F9E07B /* SignUpViewController.swift */,
 				B37C6EBC21722C8F00F9E07B /* Assets.xcassets */,
 				B37C6EBE21722C8F00F9E07B /* LaunchScreen.storyboard */,
 				B37C6ED02172642100F9E07B /* Extensions */,
@@ -77,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				B37C6ED12172646900F9E07B /* UIButtonExtension.swift */,
+				B37C6EDB21729DCC00F9E07B /* UITextFieldExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -141,6 +150,7 @@
 			files = (
 				B37C6EC021722C8F00F9E07B /* LaunchScreen.storyboard in Resources */,
 				B37C6EBD21722C8F00F9E07B /* Assets.xcassets in Resources */,
+				B37C6ED821728C8F00F9E07B /* SignUp.storyboard in Resources */,
 				B37C6EBB21722C8800F9E07B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,7 +162,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B37C6EDA21729D0B00F9E07B /* SignUpViewController.swift in Sources */,
 				B37C6ED42172728C00F9E07B /* SetUpEnvViewController.swift in Sources */,
+				B37C6EDC21729DCC00F9E07B /* UITextFieldExtension.swift in Sources */,
 				B37C6ECA2172574300F9E07B /* HowToViewController.swift in Sources */,
 				B37C6EB621722C8800F9E07B /* AppDelegate.swift in Sources */,
 				B37C6ED6217288D800F9E07B /* DesignYourProjectViewController.swift in Sources */,
