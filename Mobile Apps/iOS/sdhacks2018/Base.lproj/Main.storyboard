@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--How To View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="HowToViewController" customModule="sdhacks2018" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Install Our App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FjH-AI-drF">
+                                <rect key="frame" x="44" y="293" width="177" height="33.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H7M-cg-dmW">
+                                <rect key="frame" x="128" y="578" width="118" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="HZm-oL-rmG" kind="show" id="AO7-5H-gtw"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="picture" translatesAutoresizingMaskIntoConstraints="NO" id="Lt3-r4-shb">
+                                <rect key="frame" x="44" y="226" width="64" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Lt3-r4-shb" secondAttribute="height" multiplier="1:1" id="2Lz-j6-gFq"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Lt3-r4-shb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="206" id="5U5-Uq-r54"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FjH-AI-drF" secondAttribute="trailing" constant="154" id="LyN-7d-EC0"/>
+                            <constraint firstItem="FjH-AI-drF" firstAttribute="top" secondItem="Lt3-r4-shb" secondAttribute="bottom" constant="3" id="Nbk-7v-h5B"/>
+                            <constraint firstItem="Lt3-r4-shb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="44" id="hw2-1M-iKu"/>
+                            <constraint firstItem="FjH-AI-drF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="44" id="kFF-gI-Jtr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="InstallLabel" destination="FjH-AI-drF" id="pl2-FZ-kTW"/>
+                        <outlet property="NextButton" destination="H7M-cg-dmW" id="yYH-B9-Ujp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1152.8" y="278.41079460269867"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="lGN-qd-tAB">
+            <objects>
+                <viewController id="HZm-oL-rmG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4k0-Nt-cZ6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tis some text" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="axL-za-UyX">
+                                <rect key="frame" x="68" y="203" width="103" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="fcr-QP-njV"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bHc-bG-sfp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2069.5999999999999" y="277.51124437781112"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="picture" width="64" height="64"/>
+    </resources>
+</document>
