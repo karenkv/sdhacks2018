@@ -1,5 +1,5 @@
 //
-//  HowToViewController.swift
+//  DesignYourProjectViewController.swift
 //  sdhacks2018
 //
 //  Created by Rebecca Leung on 10/13/18.
@@ -8,18 +8,14 @@
 
 import UIKit
 
-class HowToViewController: UIViewController {
+class DesignYourProjectViewController: UIViewController {
 
-    // Icons made by "https://www.flaticon.com/authors/smashicons" Smashicons
-    
-    @IBOutlet weak var InstallLabel: UILabel!
     @IBOutlet weak var NextButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         NextButton.setButtonBorder()
-        self.navigationController?.isNavigationBarHidden = true
     }
 
     override func didReceiveMemoryWarning() {

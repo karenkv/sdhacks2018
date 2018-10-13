@@ -14,6 +14,7 @@
 		B37C6ECA2172574300F9E07B /* HowToViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37C6EC92172574300F9E07B /* HowToViewController.swift */; };
 		B37C6ED22172646900F9E07B /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37C6ED12172646900F9E07B /* UIButtonExtension.swift */; };
 		B37C6ED42172728C00F9E07B /* SetUpEnvViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37C6ED32172728C00F9E07B /* SetUpEnvViewController.swift */; };
+		B37C6ED6217288D800F9E07B /* DesignYourProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37C6ED5217288D800F9E07B /* DesignYourProjectViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B37C6EC92172574300F9E07B /* HowToViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToViewController.swift; sourceTree = "<group>"; };
 		B37C6ED12172646900F9E07B /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 		B37C6ED32172728C00F9E07B /* SetUpEnvViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpEnvViewController.swift; sourceTree = "<group>"; };
+		B37C6ED5217288D800F9E07B /* DesignYourProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignYourProjectViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				B37C6EB521722C8800F9E07B /* AppDelegate.swift */,
 				B37C6EC92172574300F9E07B /* HowToViewController.swift */,
 				B37C6ED32172728C00F9E07B /* SetUpEnvViewController.swift */,
+				B37C6ED5217288D800F9E07B /* DesignYourProjectViewController.swift */,
 				B37C6EB921722C8800F9E07B /* Main.storyboard */,
 				B37C6EBC21722C8F00F9E07B /* Assets.xcassets */,
 				B37C6EBE21722C8F00F9E07B /* LaunchScreen.storyboard */,
@@ -152,6 +155,7 @@
 				B37C6ED42172728C00F9E07B /* SetUpEnvViewController.swift in Sources */,
 				B37C6ECA2172574300F9E07B /* HowToViewController.swift in Sources */,
 				B37C6EB621722C8800F9E07B /* AppDelegate.swift in Sources */,
+				B37C6ED6217288D800F9E07B /* DesignYourProjectViewController.swift in Sources */,
 				B37C6ED22172646900F9E07B /* UIButtonExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
