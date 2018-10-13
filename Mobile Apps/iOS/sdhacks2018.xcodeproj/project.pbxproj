@@ -10,7 +10,6 @@
 		B37C6EB621722C8800F9E07B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37C6EB521722C8800F9E07B /* AppDelegate.swift */; };
 		B37C6EBB21722C8800F9E07B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37C6EB921722C8800F9E07B /* Main.storyboard */; };
 		B37C6EBD21722C8F00F9E07B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B37C6EBC21722C8F00F9E07B /* Assets.xcassets */; };
-		B37C6EC021722C8F00F9E07B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37C6EBE21722C8F00F9E07B /* LaunchScreen.storyboard */; };
 		B37C6ECA2172574300F9E07B /* HowToViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37C6EC92172574300F9E07B /* HowToViewController.swift */; };
 		B37C6ED22172646900F9E07B /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37C6ED12172646900F9E07B /* UIButtonExtension.swift */; };
 		B37C6ED42172728C00F9E07B /* SetUpEnvViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37C6ED32172728C00F9E07B /* SetUpEnvViewController.swift */; };
@@ -18,6 +17,11 @@
 		B37C6ED821728C8F00F9E07B /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37C6ED721728C8F00F9E07B /* SignUp.storyboard */; };
 		B37C6EDA21729D0B00F9E07B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37C6ED921729D0A00F9E07B /* SignUpViewController.swift */; };
 		B37C6EDC21729DCC00F9E07B /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37C6EDB21729DCC00F9E07B /* UITextFieldExtension.swift */; };
+		B37C6EDE2172A3B800F9E07B /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37C6EDD2172A3B800F9E07B /* Login.storyboard */; };
+		B37C6EE02172A3FB00F9E07B /* LoginOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37C6EDF2172A3FB00F9E07B /* LoginOptionsViewController.swift */; };
+		B37C6EE22172A55600F9E07B /* SnapchatLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37C6EE12172A55600F9E07B /* SnapchatLoginViewController.swift */; };
+		B37C6EE42172A69C00F9E07B /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37C6EE32172A69C00F9E07B /* Dashboard.storyboard */; };
+		B37C6EE62172A94E00F9E07B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37C6EE52172A94E00F9E07B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +29,6 @@
 		B37C6EB521722C8800F9E07B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B37C6EBA21722C8800F9E07B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B37C6EBC21722C8F00F9E07B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B37C6EBF21722C8F00F9E07B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B37C6EC121722C8F00F9E07B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B37C6EC92172574300F9E07B /* HowToViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToViewController.swift; sourceTree = "<group>"; };
 		B37C6ED12172646900F9E07B /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
@@ -34,6 +37,11 @@
 		B37C6ED721728C8F00F9E07B /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
 		B37C6ED921729D0A00F9E07B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		B37C6EDB21729DCC00F9E07B /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
+		B37C6EDD2172A3B800F9E07B /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		B37C6EDF2172A3FB00F9E07B /* LoginOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOptionsViewController.swift; sourceTree = "<group>"; };
+		B37C6EE12172A55600F9E07B /* SnapchatLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapchatLoginViewController.swift; sourceTree = "<group>"; };
+		B37C6EE32172A69C00F9E07B /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		B37C6EE52172A94E00F9E07B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +81,12 @@
 				B37C6EB921722C8800F9E07B /* Main.storyboard */,
 				B37C6ED721728C8F00F9E07B /* SignUp.storyboard */,
 				B37C6ED921729D0A00F9E07B /* SignUpViewController.swift */,
+				B37C6EDD2172A3B800F9E07B /* Login.storyboard */,
+				B37C6EE12172A55600F9E07B /* SnapchatLoginViewController.swift */,
+				B37C6EDF2172A3FB00F9E07B /* LoginOptionsViewController.swift */,
+				B37C6EE32172A69C00F9E07B /* Dashboard.storyboard */,
+				B37C6EE52172A94E00F9E07B /* LaunchScreen.storyboard */,
 				B37C6EBC21722C8F00F9E07B /* Assets.xcassets */,
-				B37C6EBE21722C8F00F9E07B /* LaunchScreen.storyboard */,
 				B37C6ED02172642100F9E07B /* Extensions */,
 				B37C6EC121722C8F00F9E07B /* Info.plist */,
 			);
@@ -148,9 +160,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B37C6EC021722C8F00F9E07B /* LaunchScreen.storyboard in Resources */,
+				B37C6EE42172A69C00F9E07B /* Dashboard.storyboard in Resources */,
 				B37C6EBD21722C8F00F9E07B /* Assets.xcassets in Resources */,
 				B37C6ED821728C8F00F9E07B /* SignUp.storyboard in Resources */,
+				B37C6EE62172A94E00F9E07B /* LaunchScreen.storyboard in Resources */,
+				B37C6EDE2172A3B800F9E07B /* Login.storyboard in Resources */,
 				B37C6EBB21722C8800F9E07B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,6 +182,8 @@
 				B37C6ECA2172574300F9E07B /* HowToViewController.swift in Sources */,
 				B37C6EB621722C8800F9E07B /* AppDelegate.swift in Sources */,
 				B37C6ED6217288D800F9E07B /* DesignYourProjectViewController.swift in Sources */,
+				B37C6EE22172A55600F9E07B /* SnapchatLoginViewController.swift in Sources */,
+				B37C6EE02172A3FB00F9E07B /* LoginOptionsViewController.swift in Sources */,
 				B37C6ED22172646900F9E07B /* UIButtonExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,14 +197,6 @@
 				B37C6EBA21722C8800F9E07B /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B37C6EBE21722C8F00F9E07B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B37C6EBF21722C8F00F9E07B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

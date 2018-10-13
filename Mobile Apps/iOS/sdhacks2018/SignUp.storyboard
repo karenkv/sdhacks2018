@@ -70,16 +70,34 @@
                                     <fontDescription key="fontDescription" type="system" pointSize="48"/>
                                 </variation>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Snapchat or existing account:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w4y-r0-x9U">
+                                <rect key="frame" x="40" y="608" width="227" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="98T-PS-Ob1">
+                                <rect key="frame" x="272" y="601" width="49" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Log in"/>
+                                <connections>
+                                    <segue destination="NzG-iH-IQY" kind="presentation" id="lRh-fn-XYN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="98T-PS-Ob1" firstAttribute="leading" secondItem="w4y-r0-x9U" secondAttribute="trailing" constant="5" id="1p0-4i-gi4"/>
                             <constraint firstItem="teY-88-FYn" firstAttribute="trailing" secondItem="h2I-gc-oAq" secondAttribute="trailing" constant="40" id="6eu-a3-XpD"/>
                             <constraint firstItem="nMD-0i-5xP" firstAttribute="top" secondItem="teY-88-FYn" secondAttribute="top" constant="300" id="DrB-AE-aMs"/>
                             <constraint firstItem="oyG-fh-LsK" firstAttribute="leading" secondItem="teY-88-FYn" secondAttribute="leading" constant="40" id="QlJ-DT-TXQ"/>
+                            <constraint firstItem="teY-88-FYn" firstAttribute="bottom" secondItem="w4y-r0-x9U" secondAttribute="bottom" constant="38" id="RRn-5V-to7"/>
                             <constraint firstItem="h2I-gc-oAq" firstAttribute="top" secondItem="nMD-0i-5xP" secondAttribute="bottom" constant="15" id="S4y-Oe-kAQ"/>
                             <constraint firstItem="BK3-N1-gE4" firstAttribute="top" secondItem="oyG-fh-LsK" secondAttribute="bottom" constant="15" id="amw-Mh-Heo"/>
                             <constraint firstItem="BK3-N1-gE4" firstAttribute="leading" secondItem="teY-88-FYn" secondAttribute="leading" constant="40" id="bvk-V6-Noz"/>
+                            <constraint firstItem="teY-88-FYn" firstAttribute="bottom" secondItem="98T-PS-Ob1" secondAttribute="bottom" constant="32" id="ewt-fI-Ulj"/>
                             <constraint firstItem="teY-88-FYn" firstAttribute="trailing" secondItem="nMD-0i-5xP" secondAttribute="trailing" constant="40" id="ndz-N8-KDQ"/>
+                            <constraint firstItem="w4y-r0-x9U" firstAttribute="leading" secondItem="teY-88-FYn" secondAttribute="leading" constant="40" id="sk8-vk-Kiz"/>
                             <constraint firstItem="4au-5q-ZT2" firstAttribute="centerX" secondItem="mEh-Od-IVb" secondAttribute="centerX" id="uar-9q-ixa"/>
                             <constraint firstItem="oyG-fh-LsK" firstAttribute="top" secondItem="teY-88-FYn" secondAttribute="top" constant="300" id="xVn-B1-kVv"/>
                             <constraint firstItem="4au-5q-ZT2" firstAttribute="centerY" secondItem="mEh-Od-IVb" secondAttribute="centerY" constant="-262.5" id="ybK-1R-1cK"/>
@@ -91,6 +109,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="geA-qh-upw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="229.59999999999999" y="104.7976011994003"/>
+        </scene>
+        <!--Login-->
+        <scene sceneID="IWG-YQ-Wgs">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Login.storyboard" storyboardName="Login" id="NzG-iH-IQY" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Elq-4M-WMe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="230" y="616"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="vfb-9g-Ye6">
