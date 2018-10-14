@@ -10,10 +10,14 @@ import UIKit
 
 class LoginOptionsViewController: UIViewController {
 
+    @IBOutlet weak var SnapchatLoginButton: UIButton!
+    @IBOutlet weak var emailLoginButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        SnapchatLoginButton.setButtonBorder()
+        emailLoginButton.setButtonBorder()
     }
 
     override func didReceiveMemoryWarning() {

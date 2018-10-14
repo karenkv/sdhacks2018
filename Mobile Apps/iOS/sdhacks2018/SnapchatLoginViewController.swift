@@ -20,4 +20,8 @@ class SnapchatLoginViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    func goToDashboard() {
+        // present the dashboard once user is logged in with Snapchat
+    }
 }

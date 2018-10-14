@@ -19,7 +19,6 @@ class SignUpViewController: UIViewController {
 
         emailTextField.addPadding()
         passwordTextField.addPadding()
-        signupButton.setButtonBorder()
     }
 
     override func didReceiveMemoryWarning() {

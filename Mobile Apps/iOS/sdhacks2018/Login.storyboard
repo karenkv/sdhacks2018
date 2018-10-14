@@ -25,10 +25,10 @@
             </objects>
             <point key="canvasLocation" x="-764" y="120"/>
         </scene>
-        <!--View Controller-->
+        <!--Login Options View Controller-->
         <scene sceneID="WR9-bg-DHh">
             <objects>
-                <viewController id="Yj8-4o-Jso" sceneMemberID="viewController">
+                <viewController id="Yj8-4o-Jso" customClass="LoginOptionsViewController" customModule="sdhacks2018" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4l4-e0-gyh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -48,7 +48,9 @@
                                     <constraint firstAttribute="width" secondItem="XQd-Cy-koq" secondAttribute="height" multiplier="30:7" id="P5M-hj-sRa"/>
                                     <constraint firstAttribute="width" constant="150" id="R4I-t5-uHH"/>
                                 </constraints>
-                                <state key="normal" title="Snapchat"/>
+                                <state key="normal" title="Snapchat">
+                                    <color key="titleColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="ass-ku-4rE" kind="show" id="Obv-eO-atG"/>
                                 </connections>
@@ -59,7 +61,9 @@
                                     <constraint firstAttribute="width" constant="150" id="Whg-Lz-bPk"/>
                                     <constraint firstAttribute="width" secondItem="fLI-kZ-8mY" secondAttribute="height" multiplier="30:7" id="vzp-jf-9nX"/>
                                 </constraints>
-                                <state key="normal" title="Email"/>
+                                <state key="normal" title="Email">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="4tZ-bp-SyD" kind="show" id="wQ4-r3-Q3t"/>
                                 </connections>
@@ -78,6 +82,10 @@
                         <viewLayoutGuide key="safeArea" id="g5T-m3-Yfh"/>
                     </view>
                     <navigationItem key="navigationItem" id="fvn-Y4-yXz"/>
+                    <connections>
+                        <outlet property="SnapchatLoginButton" destination="XQd-Cy-koq" id="gEW-Hj-zGt"/>
+                        <outlet property="emailLoginButton" destination="fLI-kZ-8mY" id="i0E-yV-gTs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k7Q-ax-Wxd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -90,13 +98,22 @@
                     <view key="view" contentMode="scaleToFill" id="kFl-Wo-YrG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reached snapchat page? that may not be needed" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Wv-gr-75j">
+                                <rect key="frame" x="72" y="252" width="235" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="hlT-No-200"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aKJ-H8-R7R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="94" y="896"/>
+            <point key="canvasLocation" x="93.599999999999994" y="895.50224887556226"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="hE8-CB-eGd">
@@ -133,6 +150,9 @@
                                 <state key="normal" title="Log In">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="UAc-Te-R9B" kind="presentation" id="roq-sy-MIg"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -151,6 +171,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8vK-14-dB5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1052" y="118"/>
+        </scene>
+        <!--Dashboard-->
+        <scene sceneID="lJZ-Xo-OQt">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Dashboard" id="UAc-Te-R9B" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ozy-gB-m8x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1816" y="116"/>
         </scene>
     </scenes>
 </document>
