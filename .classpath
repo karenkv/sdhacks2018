@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="oldapifile/" kind="src" path=""/>
+	<classpathentry kind="src" path="oldapifile"/>
+	<classpathentry kind="lib" path="C:/Users/Karen Vu/Desktop/sdhacks2018/java-json.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karen Vu/Desktop/sdhacks2018/target/lib/bcprov-jdk15on-1.55.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karen Vu/Desktop/sdhacks2018/target/lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karen Vu/Desktop/sdhacks2018/target/lib/docusign-esign-java-2.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karen Vu/Desktop/sdhacks2018/target/lib/jackson-annotations-2.9.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karen Vu/Desktop/sdhacks2018/target/lib/jackson-core-2.9.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karen Vu/Desktop/sdhacks2018/target/lib/jackson-databind-2.9.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karen Vu/Desktop/sdhacks2018/target/lib/jackson-datatype-joda-2.1.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karen Vu/Desktop/sdhacks2018/target/lib/jackson-jaxrs-base-2.9.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karen Vu/Desktop/sdhacks2018/target/lib/jackson-jaxrs-json-provider-2.9.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karen Vu/Desktop/sdhacks2018/target/lib/jackson-module-jaxb-annotations-2.9.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karen Vu/Desktop/sdhacks2018/target/lib/java-jwt-3.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karen Vu/Desktop/sdhacks2018/target/lib/jersey-client-1.19.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karen Vu/Desktop/sdhacks2018/target/lib/jersey-core-1.19.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karen Vu/Desktop/sdhacks2018/target/lib/jersey-multipart-1.19.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karen Vu/Desktop/sdhacks2018/target/lib/joda-time-2.9.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karen Vu/Desktop/sdhacks2018/target/lib/json-20140107.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karen Vu/Desktop/sdhacks2018/target/lib/jsr311-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karen Vu/Desktop/sdhacks2018/target/lib/migbase64-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karen Vu/Desktop/sdhacks2018/target/lib/mimepull-1.9.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karen Vu/Desktop/sdhacks2018/target/lib/org.apache.oltu.oauth2.client-1.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karen Vu/Desktop/sdhacks2018/target/lib/org.apache.oltu.oauth2.common-1.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karen Vu/Desktop/sdhacks2018/target/lib/slf4j-api-1.7.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karen Vu/Desktop/sdhacks2018/target/lib/swagger-annotations-1.5.8.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
